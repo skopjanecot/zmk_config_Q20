@@ -96,6 +96,16 @@
             key-positions = <27 41>;
             layers = <0>;
         };
+
+        ctrl_combo {
+            bindings = <&kt LCTRL>;
+            key-positions = <37 41>;
+        };
+
+        cmd_key {
+            bindings = <&sk LEFT_GUI>;
+            key-positions = <38 41>;
+        };
     };
 
     keymap {
