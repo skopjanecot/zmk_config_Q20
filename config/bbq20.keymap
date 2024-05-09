@@ -88,6 +88,16 @@
         };
     };
 
+    combos {
+        compatible = "zmk,combos";
+
+        alt_key {
+            bindings = <&sk LEFT_ALT>;
+            key-positions = <27 41>;
+            layers = <0>;
+        };
+    };
+
     keymap {
         compatible = "zmk,keymap";
 
