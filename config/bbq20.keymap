@@ -120,7 +120,7 @@
 &none                 &kp UP          &none                                   &sys_reset    &ext_power EP_TOG  &none                &kp LT      &kp GT           &kp PIPE     &kp KP_EQUAL
 &kp LEFT              &kp DOWN        &kp RIGHT                               &none         &kp BSLH           &kp AMPS             &kp LBRC    &kp RBRC         &kp CARET    &kp BSPC
 &hold_alt LEFT_ALT 1  &none           &none                                   &none         &bl BL_DEC         &bl BL_TOG           &bl BL_INC  &none            &bootloader  &kp ENTER
-                                      &sym_shift_cmd LEFT_COMMAND LEFT_SHIFT                &kt LCTRL          &hm OUT_TOG SPACE    &tog 2      &sk RIGHT_SHIFT
+                                      &sym_shift_cmd LEFT_CONTROL LEFT_SHIFT                &kt LEFT_GUI       &hm OUT_TOG SPACE    &tog 2      &sk RIGHT_SHIFT
             >;
         };
     };
